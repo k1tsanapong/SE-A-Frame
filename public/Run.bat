@@ -1,0 +1,1 @@
+start /min cmd /c npm start && start /min cmd /c npm run auto
