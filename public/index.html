@@ -10,18 +10,22 @@
 </head>
 
 <body>
-  <a-scene inspector="url: https://cdn.jsdelivr.net/gh/aframevr/aframe-inspector@master/dist/aframe-inspector.min.js">
+  <a-scene>
 
 
     <a-assets>
       <img id="sky" src="assets/skybox/sunrise_panorama_7112.jpg">
       <a-asset-item id="girl" src="assets/just_a_girl/scene.gltf"></a-asset-item>
+      <a-asset-item id="puente" src="assets/puente/scene.gltf"></a-asset-item>
+      <a-asset-item id="burger_merged" src="assets/burger_merged.glb"></a-asset-item>
       
     </a-assets> <!-- End assets -->
 
     <a-sky src="#sky"></a-sky>
 
     <a-entity gltf-model="#girl" id="updateMe" position="0 0 -8.45236" scale="0.03118 0.03118 0.03118"></a-entity>
+    <a-entity gltf-model="#burger_merged" id="up2" position="4.80834 0 -4.70918"></a-entity>
+
 
     <a-entity id="updateForWho" position="-0.2804 -0.00871 -4" rotation="0.33174256338074665 -1.8397674801650734 -0.010886198107485642">
       <a-camera></a-camera>
