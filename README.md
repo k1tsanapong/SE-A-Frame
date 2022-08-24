@@ -1,5 +1,10 @@
 # A-frame
 
+# Detail
+
+อ่าน detail แบบดีๆ
+https://familiar-ink-001.notion.site/A-frame-510785dda9bf44ea908410d7b857069b
+
 # Start
 
 ## My set up
