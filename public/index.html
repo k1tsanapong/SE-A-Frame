@@ -14,18 +14,40 @@
 
 
     <a-assets>
-      <img id="sky" src="assets/skybox/sunrise_panorama_7112.jpg">
+      <img id="sky" src="assets/skybox/Untitled.png">
       <a-asset-item id="girl" src="assets/just_a_girl/scene.gltf"></a-asset-item>
-      <!-- <a-asset-item id="puente" src="assets/puente/scene.gltf"></a-asset-item> -->
+      <a-asset-item id="book" src="assets/medieval_fantasy_book.glb"></a-asset-item>
       <a-asset-item id="burger_merged" src="assets/burger_merged.glb"></a-asset-item>
+
+      <a-asset-item id="sky_home" src="assets/stylised_sky_player_home_dioroma.glb"></a-asset-item>
+      <a-asset-item id="JASDF" src="assets/jasdf_f-2a_low_poly_model.glb"></a-asset-item>
+
+      <img id="my-image" src="assets/2.png">
+
+
+      <a-mixin id="orbitAnimation" animation="property: object3D.rotation.y; to: 360; loop: true; easing: linear; dur: 3000"></a-mixin>
+
+
       
     </a-assets> <!-- End assets -->
 
     <a-sky src="#sky"></a-sky>
 
-    <a-entity gltf-model="#girl" id="updateMe" position="0 0 -8.45236" scale="0.03118 0.03118 0.03118"></a-entity>
-    <a-entity gltf-model="#burger_merged" id="up2" position="4.80834 0 -4.70918"></a-entity>
+    <a-image id="kibou_no_tsuki" scale="16.21715 16.21715 16.21715" position="0 8.87264 -80.53068" src="#my-image"></a-image>
 
+    <a-entity id="justText" rotation="-40 0 0" position="40.9441 -2.93061 -17.97859" text="value: Za Warudo; color: blue; width: 100;" ></a-entity>
+
+
+
+    <a-entity gltf-model="#girl" id="updateMe" rotation="-11.670004371224607 48.84522499269781 15.339799049037532" position="-21.19654 -15.3828 -18.8139" scale="0.08684 0.08684 0.08684"></a-entity>
+    <a-entity gltf-model="#burger_merged" id="up2" scale="3.99656 3.99656 3.99656" position="111.26452 -32.89157 -89.52476"></a-entity>
+    <a-entity gltf-model="#book" id="up3" position="3.15008 -13.98054 -43.81224" animation-mixer></a-entity>
+    
+    <a-entity gltf-model="#sky_home" id="up4" scale="0.40238 0.40238 0.40238" rotation="0 -72.37774755431099 0" position="115.68819 -48.55221 -92.6547"></a-entity>
+
+    <a-entity mixin="orbitAnimation" animation="dur: 8000">
+      <a-entity gltf-model="#JASDF" id="up5" rotation="-9.343222765198334 -129.041554619364 -44.387613346580004" position="94.63484 -3.70967 -64.47125"></a-entity>
+    </a-entity>
 
     <a-entity id="updateForWho" position="-0.2804 -0.00871 -4" rotation="0.33174256338074665 -1.8397674801650734 -0.010886198107485642">
       <a-camera></a-camera>
