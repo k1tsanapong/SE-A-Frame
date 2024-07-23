@@ -1,5 +1,8 @@
 # A-frame
 
+## Deploy
+https://se-seki-a-frame.web.app
+
 # Detail
 
 อ่าน detail แบบดีๆ
@@ -7,9 +10,7 @@ https://seki-code.notion.site/Get-Started-A-frame-c6a38759ba864e82852240bad0e3c8
 
 # Start
 
-## My set up
 
-[KITSANAPONG WARIT / SE-A-Frame · GitLab](https://gitlab.com/6431503002/SE-A-Frame)
 
 ## Download
 
