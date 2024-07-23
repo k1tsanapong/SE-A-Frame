@@ -3,7 +3,7 @@
 # Detail
 
 อ่าน detail แบบดีๆ
-https://familiar-ink-001.notion.site/A-frame-510785dda9bf44ea908410d7b857069b
+https://seki-code.notion.site/Get-Started-A-frame-c6a38759ba864e82852240bad0e3c8a5
 
 # Start
 
